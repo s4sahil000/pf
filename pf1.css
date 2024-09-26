@@ -1,0 +1,124 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.left11{
+  display: flex;
+  font-size: 2.5rem;
+  color: rgb(250, 245, 245);
+}
+body {
+  background-color: rgb(1, 1, 17);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(5, 0, 8);
+  padding: 0 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  color: rgb(238, 11, 11);
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav ul li a:hover {
+  color: brown;
+  font-size: 1.5rem;
+}
+main hr {
+  border: 0;
+  background: rebeccapurple;
+  height: 10px;
+  margin: 40px 84px;
+}
+.left {
+  font-size: 1.5rem;
+  color: white;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 110px 0;
+  font-size: 3rem;
+  align-items: center;
+  color: blue;
+}
+.leftsection {
+  padding: 20px;
+  width: 40%;
+}
+.rightsection {
+  text-align: right;
+  width: 30%;
+}
+.rightsection img {
+  width: 100%;
+  max-width: 300px;
+  margin: 47px 0;
+}
+.purple {
+  color: blue;
+}
+#element {
+  color: rgb(203, 216, 14);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.9em;
+}
+.grey {
+  color: grey;
+}
+.secondSection .box {
+  background-color: forestgreen;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: space-between;
+  height: 2px;
+  margin: 50px 0;
+}
+.secondSection .vertical {
+  height: 50px;
+  width: 1px;
+  background-color: yellow;
+  display: flex;
+}
+footer {
+  background-color: aquamarine;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 23px 122px;
+}
+.footer ul {
+  list-style: lower-latin;
+}
+.footer > div {
+  width: 123px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+
+}

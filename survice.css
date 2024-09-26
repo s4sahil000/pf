@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.left11{
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+body {
+  background-color: rgb(246, 246, 248);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(140, 0, 255);
+  padding: 0 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  color: white;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav ul li a:hover {
+  color: brown;
+  font-size: 1.5rem;
+}
+
+.sur1{
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+.serve{
+  font-size: 30px;
+  width: 20px;
+  align-items: end;
+}
+
+footer {
+  background-color: rgb(129, 50, 202);
+  height: 233px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 23px 122px;
+  list-style: none;
+
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 123px;
+}
+
+
+.dvlop{
+  font-size: 2rem;
+  color: rgb(110, 110, 196);
+  
+  /* width: 10px;   */
+}
+.aotdevlop{
+  font-size:20px;
+  color: rgb(236, 4, 4);
+  align-items: left;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  justify-content: space-evenly;
+}
